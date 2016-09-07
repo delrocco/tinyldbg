@@ -1,0 +1,49 @@
+----------------------------------------
+TINYLDBG
+----------------------------------------
+
+A tiny lua debugger that is loaded into a lua runtime and helps with diagnostics, circa 2006.
+
+----------------------------------------
+NOTES
+----------------------------------------
+
+Simply hook/call tinyldb.start() from a command line environment.
+
+Requires lua debug module.
+
+---------------------------------------
+FUNCTIONALITY
+---------------------------------------
+
+start/reset/shutdown/help
+
+breakpoints
+ - creating
+ - removing
+ - saving
+ - loading
+ - displaying
+ - clearing
+ - enabling
+ - disabling
+
+stepping
+ - 1 or more lines
+ - over
+ - continue
+
+dumping
+ - callstack
+ - globals
+ - upvals
+ - locals
+ - function environment
+ - function info
+ - variabls by name
+
+setting
+ - variables by name
+ - copying variables
+
+executing raw lua
